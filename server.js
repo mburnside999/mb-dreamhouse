@@ -37,7 +37,7 @@ client.query("SELECT * FROM salesforce.broker__c", function (error, data) {
   } else {
     var schema = "salesforce.";
     propertyTable = schema + "property__c";
-    favoriteTable = schema + "favorite__c";
+    favoriteTable = schema + "favourite__c";
     brokerTable = schema + "broker__c";
   }
 });
