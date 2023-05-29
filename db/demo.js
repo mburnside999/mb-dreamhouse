@@ -29,7 +29,7 @@ module.exports = function(client) {
    price__c DOUBLE PRECISION,
    location__longitude__s DOUBLE PRECISION,
    location__latitude__s DOUBLE PRECISION
-  );`);
+  );`);mb-
 
   client.query(`CREATE TABLE favorite__c (
    id SERIAL NOT NULL,
